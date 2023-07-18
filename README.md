@@ -20,6 +20,7 @@ git switch <file-name> (Switch between branches)
 git commit -m (To commit changes, and include a message)
 
 git push (To push changes to the main repo)
+
 ```
 ### To start out:
 ``` 
@@ -53,4 +54,8 @@ git checkout -b <new-branch-name> (Creates a new branch for a new feature)
 git push origin <new-branch-name> (Push new branch from local machine to main)
 git commit -m (To commit changes, and include a message)
 git push (To push changes to the main repo)
+
+- If just want to retrieve main changes but dont want your current code to affect main branch
+git fetch origin/main
+git merge origin/main
 ```
