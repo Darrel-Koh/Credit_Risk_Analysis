@@ -51,9 +51,9 @@ git push (To push changes to the main repo)
 ### To start a new feature:
 ```
 git checkout -b <new-branch-name> (Creates a new branch for a new feature)
-git push origin <new-branch-name> (Push new branch from local machine to main)
 git commit -m (To commit changes, and include a message)
-git push (To push changes to the main repo)
+git push (To push changes to the Branch repo)
+git push origin <new-branch-name> (Push new branch from local machine to main)
 
 - If just want to retrieve main changes but dont want your current code to affect main branch
 git fetch origin/main
