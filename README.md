@@ -59,5 +59,4 @@ git push origin <new-branch-name> (Push new changes in branch from local machine
 git fetch origin main
 git merge origin/main
 
-
 ```
